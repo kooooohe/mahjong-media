@@ -10,3 +10,9 @@ import 'rxjs';
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
 import '../scss/styles.scss';
+
+// Project Clarity
+import '@clr/ui/clr-ui.min.css';
+import '@clr/icons/clr-icons.min.css';
+import '@clr/icons/clr-icons.min.js';
+import '@webcomponents/custom-elements/custom-elements.min.js';
