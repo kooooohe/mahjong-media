@@ -8,13 +8,13 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ./playindoor:/var/www:cached
+      - ./mahjong-media:/var/www:cached
 
   php:
     build:
       context: ./phpfpm
     volumes:
-      - ./playindoor:/var/www:cached
+      - ./mahjong-media:/var/www:cached
 
   mysql:
     restart: always
