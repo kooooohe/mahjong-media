@@ -7,11 +7,12 @@ import '@angular/http';
 import '@angular/router';
 // RxJS
 import 'rxjs';
+
+
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
-import '../scss/styles.scss';
 
-// Project Clarity
+// Project Clarity Design
 import '@clr/ui/clr-ui.min.css';
 import '@clr/icons/clr-icons.min.css';
 import '@clr/icons/clr-icons.min.js';
